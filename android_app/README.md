@@ -10,7 +10,7 @@ Aplicación realizada desde cero durante el tercer trimestre como entrega final 
 
 ### Pantallas `OnBoarding`
 
-![01.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/1fca11d2-3d49-4b61-8597-ab9576d4cf26/01.jpg)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/453f9243-2a7b-4257-9c0c-9a59de3f2b71)
 
 La aplicación cuenta con varias pantallas `OnBoarding`, que se muestran la primera vez que se accede a la aplicación. Estas pantallas muestran información sobre:
 
@@ -23,7 +23,7 @@ Estas pantallas OnBoarding se generan dinámicamente desde la aplicación.
 
 ### Pantallas `Login` y `Registro`
 
-![02.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/5d642de9-f97d-4b01-b157-e31141f27b37/02.jpg)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/13697e5a-0359-4cba-96b3-7d91020fc752)
 
 ### Login
 
@@ -39,7 +39,7 @@ Estas pantallas OnBoarding se generan dinámicamente desde la aplicación.
 
 ### Pantalla `Vehículos`
 
-![Google Pixel 4 XL Presentation (2).jpg](<https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/3e35eb35-825e-475b-8636-586ddbdc2dfe/Google_Pixel_4_XL_Presentation_(2).jpg>)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/25e94f26-3aa8-4375-a73d-ad22dcf8f3fe)
 
 ### Pantalla listado de vehículos
 
@@ -54,7 +54,7 @@ Estas pantallas OnBoarding se generan dinámicamente desde la aplicación.
 -   Se pueden modificar vehículos del usuario, cargando todos los datos del vehículo.
 -   La carga de la categoría, marca y modelo se realizan de forma dinámica mediante consultas a la API desarrollada en Python para el proyecto.
 
-![Google Pixel 4 XL Presentation.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/b6b4c0fa-d04f-4fa2-a727-96e28a059fc2/Google_Pixel_4_XL_Presentation.jpg)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/934e8b83-6ea9-4eb1-9e6c-ad3c37b17528)
 
 -   Al pulsar sobre el botón con la `fecha de registro`, se despliega el calendario interactivo.
 -   Si se le ha hecho click a un vehículo, mostrará la opción de eliminar. Esta opción permanece oculta en la creación de vehículo.
@@ -64,7 +64,7 @@ Estas pantallas OnBoarding se generan dinámicamente desde la aplicación.
 
 ### Pantalla `Proveedores`
 
-![proveed.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/594ad285-93ac-4100-b1b1-20119d7f52a8/proveed.png)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/561fa5e3-c7b2-426f-bee0-4de961c92b4b)
 
 ### Pantalla listado de proveedores
 
@@ -80,7 +80,7 @@ Estas pantallas OnBoarding se generan dinámicamente desde la aplicación.
 
 ### Pantalla `Gastos`
 
-![gastos1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/207a2e5b-3614-4018-a107-b7c27331004c/gastos1.png)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/20b7defa-7a0e-4c55-9eb1-7650ca5a03e0)
 
 ### Pantalla listado de gastos
 
@@ -95,7 +95,8 @@ Estas pantallas OnBoarding se generan dinámicamente desde la aplicación.
         -   Número de gastos del vehículo.
         -   Botón de exportación de datos, con la fecha de exportación, vehículo, listado de gastos ordenado por fecha, con la fecha, proveedor e importe, número de gastos y gastos totales.
         -   Ejemplo de exportación de datos.
-            ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/a8b3bf54-e627-4135-a701-8d9dbabdf709/Untitled.png)
+          
+            <img src="https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/a1362b46-f53c-4b00-bd73-b0563026ce03" width="300"/>
     -   Bloque gráfica:
         -   Se muestra una gráfica animada con los proveedores que más importe han acumulado en este vehículo.
         -   Si hay solamente un proveedor o menos, no se muestra este bloque.
@@ -103,10 +104,10 @@ Estas pantallas OnBoarding se generan dinámicamente desde la aplicación.
     -   Bloque listado de gastos:
         -   Se muestra un recyclerView con un listado de los gastos asociados al vehículo seleccionado.
         -   Al hacer click sobre alguno de estos gastos se accede a la pantalla de edición del gasto.
-
-![gastos2.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/aea20d74-aded-4394-8462-aee3eedc76d5/gastos2.png)
-
+        -   
 ### Pantalla detalle de gasto
+
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/b865cdab-6511-4106-b510-62b1f8c51789)
 
 -   Permite la creación de un nuevo gasto.
 -   También permite la edición y eliminación de un gasto ya creado.
@@ -116,7 +117,7 @@ Estas pantallas OnBoarding se generan dinámicamente desde la aplicación.
 
 ### Menú de `Opciones`
 
-![opciones.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/97f9f7fb-5d92-441b-ab57-4b57c8d901bb/opciones.png)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/bd9e09b1-4b4b-453f-a071-94a2ef1a6fa6)
 
 El menú de opciones incluye la siguiente información:
 
@@ -125,15 +126,16 @@ El menú de opciones incluye la siguiente información:
     -   La pantalla de configuración permite modificar diferentes opciones de la aplicación:
         -   Listado de vehículos: En formato lista compacta o vista ampliada.
         -   Listado de proveedores: En formato vista rejilla o vista lista.
-            ![ejemplos.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/2ae2f12c-c461-4faf-8863-6d0ffd44132c/ejemplos.png)
+            ![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/2a296649-e615-4a89-abcf-867859f3a3a7)
         -   Tamaño de la gráfica de proveedores: hasta un máximo de 5 proveedores o sin gráfica si así se desea.
-            ![opciones2.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/771aff53-67bb-439a-9f74-41f5c1d63c1f/opciones2.png)
+            <img src="https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/182f1c6c-010f-4e8e-86e3-39a1052dae26" width="500"/>
+
 -   Pantalla Sobre mí. Muestra datos del autor de la aplicación, así como enlaces a GitHub y Linkedin del autor.
 -   Opción Cerrar sesión: Permite cerrar la sesión del usuario activo.
 
 ### Mensajes de aviso
 
-![mensajes.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/dd78451b-d348-4735-ac6c-47ce20902c62/mensajes.png)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/dc39263d-ade2-4a79-8ee7-b943c36b3417)
 
 La aplicación tiene múltiples mensajes de aviso para informar al usuario de errores o consejos de uso. Estos son algunos ejemplos:
 
@@ -149,7 +151,7 @@ La aplicación tiene múltiples mensajes de aviso para informar al usuario de er
 
 En almacenamiento local se guardan los datos de los vehículos, mediante el uso de `Room`. También existe persistencia de datos con Firebase, de manera que la aplicación puede ser utilizada parcialmente aunque no se disponga de conexión con la base de datos.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/4b7ef5c1-d304-44a1-9be5-fa14a45fa37d/Untitled.png)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/731a0c12-c6d6-496f-a333-a7ac5e279bae)
 
 ### SharedPreferences
 
