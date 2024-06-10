@@ -14,7 +14,7 @@ La aplicación está actualmente desplegada en Netlify:
 
 ### Barra de `Menú principal`
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/be2783e1-02fc-488d-b750-9f37c3f7e8d1/Untitled.png)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/24c4f4ee-fe54-4e65-b92d-d84bef90e9b1)
 
 -   Se muestra en toda la aplicación.
 -   Incluye botón para traducir la aplicación entre español e inglés.
@@ -23,18 +23,19 @@ La aplicación está actualmente desplegada en Netlify:
 
 ### Pantalla `Inicio`
 
-![2024-06-08 21_13_31-Ionic App.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/51700597-6779-41a3-89f5-65fffdba10ca/2024-06-08_21_13_31-Ionic_App.png)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/571dad78-27e6-485e-8dd1-5e4114c7d349)
 
 -   En la parte izquierda de la pantalla hay un listado con los vehículos registrados a nombre del usuario. Este listado se puede filtrar entre los vehículos disponibles o todos los registrados, incluyendo los no disponibles.
 -   Las imágenes de los vehículos se encuentran cargadas en Firebase Storage. Si no existe imagen asociada al vehículo, se muestra una imagen placeholder de la categoría del vehículo.
 -   Cuando se hace click en un vehículo, en la parte derecha se muestran su marca y modelo, así como el total gastado y el número de gastos. Debajo de la cabecera de los gastos se muestra el listado de gastos asociados.
 -   En esta pantalla hay acceso al formulario de alta, edición y borrado de vehículos y de gastos.
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/3280ab0f-0a77-415d-bc87-3891eae25e0d/Untitled.png)
-    ![2024-06-08 21_24_59-Ionic App.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/440d2a1f-0590-429e-9004-ad28987c017d/2024-06-08_21_24_59-Ionic_App.png)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/cd223b78-06fc-438f-8aef-7d3292840747)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/3e232a1f-e581-4463-8c6b-d1df26bd6114)
+
 
 ### Pantalla `Vehículos`
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/150598c1-6fa3-4818-ab83-2313c70c0299/Untitled.png)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/3f552e74-a7f2-4e45-aca9-8ad0009c3c7f)
 
 -   Se muestra un listado con todos los vehículos disponibles, así como información detallada de los mismos.
 -   Las categorías se muestran tanto con un campo de texto como con un icono representativo.
@@ -43,23 +44,23 @@ La aplicación está actualmente desplegada en Netlify:
 
 ### Pantalla `Proveedores`
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/133c14b3-2d6c-46ff-a81a-2b6f17b81f34/Untitled.png)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/4b30f543-9774-4629-9f62-354c19517c37)
 
 -   Muestra un listado de los proveedores, así como la categoría a la que pertenece y su teléfono de contacto.
 -   En esta pantalla se puede dar de alta, editar y eliminar cualquier proveedor mediante el formulario dinámico correspondiente.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/7f3d2f58-2157-49d9-a8a6-8ca28a3cb682/Untitled.png)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/0897b762-f93a-4b48-b0db-30bf7e94c03b)
 
 ### Pantalla `Sobre mí`
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/012d2c61-36cf-4c9a-8bf2-4599c8aa98c9/Untitled.png)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/9332c34f-d498-4992-81f8-e311f0e4372b)
 
 -   Pantalla con información del autor de la aplicación.
 -   Incluye enlace a GitHub y a Linkedin del autor.
 
 ### Pantalla `Administración`
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/ebe89f0a-f3cc-4b04-8942-843353fecd5b/Untitled.png)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/9ad14a85-f07b-42a3-a430-66a447701de3)
 
 -   Pantalla de administración a la que se puede acceder únicamente si el usuario logueado tiene el rol de Administrador.
 -   Hay un botón de exportación de datos, que exporta un archivo en formato `.CSV` con el registro de la aplicación.
@@ -67,4 +68,5 @@ La aplicación está actualmente desplegada en Netlify:
 -   Se muestra una tabla con el listado de usuarios, así como los vehículos que tiene registrados cada uno de ellos.
 -   En el caso del administrador, se muestra con un icono indicativo junto al nombre.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/b9903964-4ae6-4035-9d9b-e920d97d0157/Untitled.png)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/4339aba8-0833-4cfc-bbf4-bc3c2e9af8ec)
+
