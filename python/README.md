@@ -10,7 +10,7 @@ Captura de pantalla de la aplicación flask_app.py y de los json alojados en pyt
 
 ## Documentación de la API
 
-[Build, Collaborate & Integrate APIs | SwaggerHub](https://app.swaggerhub.com/apis/Juanma-Gutierrez/CarCare.Android.Kotlin.API/1.0.0)
+[Build, Collaborate & Integrate APIs | SwaggerHub](https://app.swaggerhub.com/apis-docs/Juanma-Gutierrez/CarCare.Android.Kotlin.API/1.0.0#/)
 
 ## Ejemplos de respuestas por categoría:
 
