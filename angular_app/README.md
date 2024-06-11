@@ -12,26 +12,26 @@ La aplicación está actualmente desplegada en Netlify:
 
 ## Detalle de la aplicación
 
-### Pantalla de `Login`
+### Login
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/0e162ad5-05a7-4ea6-b1c9-89e431574bf5/Untitled.png)
+![2024-06-10 21_00_30-](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/b4a54d53-8d24-4b26-b520-220cc50703ab)
 
 -   La aplicación cuenta con una pantalla de login para iniciar la sesión.
 -   El login se realiza con correo electrónico y contraseña.
 -   El correo electrónico queda almacenado en localstorage del navegador.
 -   Si se introducen mal los datos, se muestra un aviso de error.
+![2024-06-10 21_02_20-Ionic App](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/a254ca66-93ac-4b10-81e4-62673d829dc7)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/77b2ab26-6945-4dac-a4f8-4577b607923a/Untitled.png)
+### Pantalla de Registro
 
-### Pantalla de `Registro`
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/220e0062-2385-4e30-949a-76bdbab6d7a3/Untitled.png)
+![2024-06-10 21_03_19-Ionic App](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/2605ff10-c111-463a-abf0-e2be81995e88)
 
 -   La aplicación cuenta con una pantalla para registrar usuarios.
 -   Se controla que se introduzcan correctamente todos los datos.
 -   Hay control especial sobre la contraseña, solicita que tenga al menos una mayúscula, una minúscula, un número y 8 dígitos.
 -   Durante el proceso de inserción de la contraseña se va indicando si se cumplen los requisitos. Si cumple correctamente se muestra en pantalla.
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61f51ecb-82e9-4fe4-9bad-70c506e29965/90f23358-5d58-43db-b56b-80fb860c3290/Untitled.png)
+
+    <img src="https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/b1171d61-9009-451f-b00b-1e20607c828f" width="300"/>
 
 ### Barra de `Menú principal`
 
