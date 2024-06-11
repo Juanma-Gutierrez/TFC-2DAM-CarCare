@@ -1,4 +1,4 @@
-# Anteproyecto Trabajo Fin de Ciclo TFC 2º DAM 2024
+# Proyecto Trabajo Fin de Ciclo TFC 2º DAM 2024
 
 # Autor del proyecto:
 
@@ -14,13 +14,13 @@ Proyecto final del Grado Superior de Desarrollo de Aplicaciones Multiplataforma 
 
 ## Objetivos:
 
-El proyecto trata de una aplicación web y móvil que permite al usuario la gestión de los gastos derivados de sus vehículos: gasolina, taller, seguro, etc.
+El proyecto desarrolla una aplicación para la gestión personal de vehículos, así como los gastos que generan a lo largo del tiempo. El proyecto está montado en dos versiones, una versión web realizada en Angular y otra versión móvil realizada en Kotlin.
 
 Dispone de CRUD de vehículos, de proveedores y de gastos, así como el registro de usuarios.
 
 ## Temática:
 
-La temática es el mundo de los vehículos, automóviles, motocicletas, camiones, etc.
+La temática es el mundo del motor: automóviles, motocicletas, camiones, etc.
 
 ## Tecnologías utilizadas:
 
@@ -37,10 +37,12 @@ La temática es el mundo de los vehículos, automóviles, motocicletas, camiones
 
 # Especificaciones del proyecto
 
-Toda la información del proyecto se encuentra en este [repositorio](https://github.com/CPIFPAlanTuring/2dam-tfc-2324).
+Toda la información sobre requisitos del proyecto se encuentra en este [repositorio](https://github.com/CPIFPAlanTuring/2dam-tfc-2324).
 
-# Checkpoint
+# Videos del proyecto final en funcionamiento
 
+-   Enlace al video del proyecto final.
+    [Proyecto TFC 2º DAM CarCare](https://youtu.be/9OqkJL5GpV8)
 -   Enlace a video para el checkpoint.
     [Checkpoint Proyecto TFC 2º DAM CarCare](https://youtu.be/zupeu_2-FIM)
 
@@ -49,16 +51,17 @@ Toda la información del proyecto se encuentra en este [repositorio](https://git
 -   [Aplicación Angular](angular_app/README.md)
 -   [Aplicación Android](android_app/README.md)
 -   [Diario del proyecto](daily/README.md)
--   [Documentación adjunta](documentation/README.md)
+-   [Modelos y persistencia de datos](models/README.md)
 -   [Diagrama de flujo de la aplicación](flowchart/README.md)
 -   [Prototipo de la aplicación en Figma](prototype/README.md)
 -   [Api en Python](python/README.md)
 -   [Gestión de datos del Log](log/README.md)
--   [Dashboard en Power Bi](powerbi/README.md)
+-   [Dashboard en Power BI](powerbi/README.md)
+-   [Posibles mejoras y escalabilidad](features/README.md)
 -   [Tecnologías utilizadas](technologies/README.md)
 -   [Webgrafía](webgraphy/README.md)
 
 # PDF de documentación
 
-- [PDF con la información completa del TFC]()
-- [PDF con la exportación del dashboard de Power Bi](PDF/Proyecto_PowerBi_CarCare.pdf)
+-   [PDF con la información completa del TFC](PDF/TFC_Juan_Manuel_Gutierrez_CarCare.pdf)
+-   [PDF con la exportación del dashboard de Power BI](PDF/Proyecto_PowerBi_CarCare.pdf)

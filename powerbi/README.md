@@ -1,6 +1,6 @@
-# Dashboard en Power Bi
+# Dashboard en Power BI
 
-Para el dashboard en Power Bi, se utiliza el archivo .CSV exportado desde la aplicación web con permisos de administrador. Este archivo CSV es importado en Power Bi para ser transformado y generar las tablas necesarias para mostrar el dashboard desarrollado.
+Para el dashboard en Power BI, se utiliza el archivo .CSV exportado desde la aplicación web con permisos de administrador. Este archivo CSV es importado en Power BI para ser transformado y generar las tablas necesarias para mostrar el dashboard desarrollado.
 
 ## Transformaciones realizadas
 

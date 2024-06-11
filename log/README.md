@@ -59,7 +59,7 @@ La salida tendría esta estructura:
 ]
 ```
 
-Estos datos pueden ser extraídos a formato CSV para ser procesados posteriormente mediante Power Bi para generar el dashboard de gestión de la aplicación para los usuarios con rol de administrador.
+Estos datos pueden ser extraídos a formato CSV para ser procesados posteriormente mediante Power BI para generar el dashboard de gestión de la aplicación para los usuarios con rol de administrador.
 
 Formato del archivo .CSV:
 

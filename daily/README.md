@@ -152,7 +152,7 @@
 ### Semana 10/6 - 16/6
 
 - Test generales de las aplicaciones.
-- Comprobaciones de exportaciones de datos para su importación en Power Bi.
+- Comprobaciones de exportaciones de datos para su importación en Power BI.
 - Revisión de documentación.
 - Actualización de repositorios.
 - Generación de archivo APK de la aplicación Android.
