@@ -14,17 +14,17 @@ La aplicación está actualmente desplegada en Netlify:
 
 ### Login
 
-![2024-06-10 21_00_30-](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/b4a54d53-8d24-4b26-b520-220cc50703ab)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/b4a54d53-8d24-4b26-b520-220cc50703ab)
 
 -   La aplicación cuenta con una pantalla de login para iniciar la sesión.
 -   El login se realiza con correo electrónico y contraseña.
 -   El correo electrónico queda almacenado en localstorage del navegador.
 -   Si se introducen mal los datos, se muestra un aviso de error.
-![2024-06-10 21_02_20-Ionic App](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/a254ca66-93ac-4b10-81e4-62673d829dc7)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/a254ca66-93ac-4b10-81e4-62673d829dc7)
 
 ### Pantalla de Registro
 
-![2024-06-10 21_03_19-Ionic App](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/2605ff10-c111-463a-abf0-e2be81995e88)
+![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/2605ff10-c111-463a-abf0-e2be81995e88)
 
 -   La aplicación cuenta con una pantalla para registrar usuarios.
 -   Se controla que se introduzcan correctamente todos los datos.
