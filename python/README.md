@@ -12,6 +12,10 @@ Captura de pantalla de la aplicación flask_app.py y de los json alojados en pyt
 
 [Build, Collaborate & Integrate APIs | SwaggerHub](https://app.swaggerhub.com/apis-docs/Juanma-Gutierrez/CarCare.Android.Kotlin.API/1.0.0#/)
 
+## Documentación de la aplicación python
+
+La documentación de la aplicación python se encuentra en este repositorio, en documentation/html.
+
 ## Ejemplos de respuestas por categoría:
 
 -   Coches: https://jumang.pythonanywhere.com/api/cars/brands
@@ -104,9 +108,6 @@ Captura de pantalla de la aplicación flask_app.py y de los json alojados en pyt
   "message": "Bad request: Invalid brand supply"
 }
 ```
-## Documentación de la aplicación python
-
-La documentación de la aplicación python se encuentra en este repositorio, en documentation/html.
 
 ## Problemas encontrados:
 
