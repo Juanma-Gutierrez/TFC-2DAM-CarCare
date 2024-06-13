@@ -1,3 +1,10 @@
+"""
+@package my_flask_app
+Documentation for the Flask application.
+
+This module provides a Flask web application with several endpoints
+to retrieve data about cars, motorcycles, vans, and trucks from JSON files.
+"""
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
@@ -35,20 +42,35 @@ with open(path_trucks_json) as f:
 app = Flask(__name__)
 CORS(app)
 
-# Endpoint to get all cars
 @app.route('/api/cars', methods=['GET'])
 def getCars():
+    """
+    Endpoint to get all cars.
+
+    @return: JSON response with all cars data.
+    """
     return jsonify(cars)
 
-# Endpoint to get all cars brands
 @app.route('/api/cars/brands', methods=['GET'])
 def getCarsBrands():
+    """
+    Endpoint to get all car brands.
+
+    @return: JSON response with a list of car brands.
+    """
     brands = list(cars["data"].keys())
     return jsonify({"brands": brands})
 
-# Endpoint to get models of a specific brand
+
 @app.route('/api/cars/models/<brand>', methods=['GET'])
 def getCarsModels(brand):
+    """
+    Endpoint to get models of a specific car brand.
+
+    @param brand: The brand of the car.
+    @return: JSON response with a list of models for the specified brand,
+    or an error message if the brand is not found.
+    """
     if brand in cars["data"]:
         models = cars["data"][brand]
         return jsonify({"models":models})
@@ -56,20 +78,34 @@ def getCarsModels(brand):
         return jsonify(errorMessage), 400
 
 
-# Endpoint to get all motorcycles
 @app.route('/api/motorcycles', methods=['GET'])
 def getMotorcycles():
+    """
+    Endpoint to get all motorcycles.
+
+    @return: JSON response with all motorcycles data.
+    """
     return jsonify(motorcycles)
 
-# Endpoint to get all motorcycles brands
 @app.route('/api/motorcycles/brands', methods=['GET'])
 def getMotorcyclesBrands():
+    """
+    Endpoint to get all motorcycle brands.
+
+    @return: JSON response with a list of motorcycle brands.
+    """
     brands = list(motorcycles["data"].keys())
     return jsonify({"brands": brands})
 
-# Endpoint to get models of a specific brand
 @app.route('/api/motorcycles/models/<brand>', methods=['GET'])
 def getMotorcyclesModels(brand):
+    """
+    Endpoint to get models of a specific motorcycle brand.
+
+    @param brand: The brand of the motorcycle.
+    @return: JSON response with a list of models for the specified brand,
+    or an error message if the brand is not found.
+    """
     if brand in motorcycles["data"]:
         models = motorcycles["data"][brand]
         return jsonify({"models":models})
@@ -77,20 +113,34 @@ def getMotorcyclesModels(brand):
         return jsonify(errorMessage), 400
 
 
-# Endpoint to get all vans
 @app.route('/api/vans', methods=['GET'])
 def getVans():
+    """
+    Endpoint to get all vans.
+
+    @return: JSON response with all vans data.
+    """
     return jsonify(vans)
 
-# Endpoint to get all vans brands
 @app.route('/api/vans/brands', methods=['GET'])
 def get_vans_brands():
+    """
+    Endpoint to get all van brands.
+
+    @return: JSON response with a list of van brands.
+    """
     brands = list(vans["data"].keys())
     return jsonify({"brands": brands})
 
-# Endpoint to get models of a specific brand
 @app.route('/api/vans/models/<brand>', methods=['GET'])
 def getVansModels(brand):
+    """
+    Endpoint to get models of a specific van brand.
+
+    @param brand: The brand of the van.
+    @return: JSON response with a list of models for the specified brand,
+    or an error message if the brand is not found.
+    """
     if brand in vans["data"]:
         models = vans["data"][brand]
         return jsonify({"models":models})
@@ -98,20 +148,35 @@ def getVansModels(brand):
         return jsonify(errorMessage), 400
 
 
-# Endpoint to get all trucks
 @app.route('/api/trucks', methods=['GET'])
 def getTrucks():
+    """
+    Endpoint to get all trucks.
+
+    @return: JSON response with all trucks data.
+    """
     return jsonify(trucks)
 
-# Endpoint to get all trucks brands
 @app.route('/api/trucks/brands', methods=['GET'])
 def getTrucksBrands():
+    """
+    Endpoint to get all truck brands.
+
+    @return: JSON response with a list of truck brands.
+    """
     brands = list(trucks["data"].keys())
     return jsonify({"brands": brands})
 
-# Endpoint to get models of a specific brand
+
 @app.route('/api/trucks/models/<brand>', methods=['GET'])
 def getTrucksModels(brand):
+    """
+    Endpoint to get models of a specific truck brand.
+
+    @param brand: The brand of the truck.
+    @return: JSON response with a list of models for the specified brand,
+    or an error message if the brand is not found.
+    """
     if brand in trucks["data"]:
         models = trucks["data"][brand]
         return jsonify({"models":models})
@@ -119,9 +184,14 @@ def getTrucksModels(brand):
         return jsonify(errorMessage), 400
 
 
-#Endpoint that returns all brands of all vehicle categories
 @app.route('/api/brands', methods=['GET'])
 def getAllBrands():
+    """
+    Endpoint to get all brands of all vehicle categories.
+
+    @return: JSON response with a dictionary containing lists of brands for
+    cars, motorcycles, vans, and trucks.
+    """
     all_brands = {
         "status": "success",
         "data": {
@@ -134,11 +204,20 @@ def getAllBrands():
     return jsonify(all_brands)
 
 
-# Test endpoint
 @app.route('/')
 def hello_world():
+    """
+    Test endpoint.
+
+    @return: Simple 'Hello world!' message.
+    """
     return 'Hello world!'
 
 @app.route('/api')
 def hello_world_api():
+    """
+    API test endpoint.
+
+    @return: Simple 'Hello world!' message for the API.
+    """
     return 'Hello world!'
