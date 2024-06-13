@@ -1,0 +1,75 @@
+{
+    "status": "success",
+    "data": {
+        "Mercedes-Benz": [
+            "Sprinter",
+            "Metris",
+            "Vito",
+            "Citan",
+            "Marco Polo"
+        ],
+        "Ford": [
+            "Transit",
+            "Transit Connect",
+            "Transit Custom",
+            "Tourneo Custom",
+            "Econoline"
+        ],
+        "Volkswagen": [
+            "Transporter",
+            "Crafter",
+            "Caddy",
+            "Amarok",
+            "California"
+        ],
+        "Renault": [
+            "Master",
+            "Trafic",
+            "Kangoo",
+            "Twingo Cargo",
+            "Express"
+        ],
+        "Peugeot": [
+            "Boxer",
+            "Expert",
+            "Partner",
+            "Bipper",
+            "Rifter"
+        ],
+        "Citroen": [
+            "Jumper",
+            "Jumpy",
+            "Berlingo",
+            "SpaceTourer",
+            "Nemo"
+        ],
+        "Fiat": [
+            "Ducato",
+            "Doblò",
+            "Fiorino",
+            "Talento",
+            "Fullback"
+        ],
+        "Toyota": [
+            "Hiace",
+            "ProAce",
+            "Town Ace",
+            "LiteAce",
+            "MasterAce"
+        ],
+        "Nissan": [
+            "NV",
+            "NV200",
+            "NV300",
+            "NV400",
+            "Vanette"
+        ],
+        "Chevrolet": [
+            "Express",
+            "City Express",
+            "N200",
+            "N300",
+            "C20"
+        ]
+    }
+}

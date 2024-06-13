@@ -1,0 +1,75 @@
+{
+    "status": "success",
+    "data": {
+        "Volvo": [
+            "FH",
+            "FM",
+            "FL",
+            "FE",
+            "VNL"
+        ],
+        "Mercedes-Benz": [
+            "Actros",
+            "Arocs",
+            "Antos",
+            "Atego",
+            "Unimog"
+        ],
+        "Scania": [
+            "R-Series",
+            "S-Series",
+            "G-Series",
+            "P-Series",
+            "L-Series"
+        ],
+        "MAN": [
+            "TGX",
+            "TGS",
+            "TGM",
+            "TGL",
+            "Lion's City"
+        ],
+        "DAF": [
+            "XF",
+            "CF",
+            "LF",
+            "95",
+            "105"
+        ],
+        "Iveco": [
+            "Stralis",
+            "Eurocargo",
+            "Daily",
+            "Trakker",
+            "S-Way"
+        ],
+        "Kenworth": [
+            "W900",
+            "T680",
+            "T800",
+            "T880",
+            "T270"
+        ],
+        "Peterbilt": [
+            "579",
+            "389",
+            "567",
+            "520",
+            "220"
+        ],
+        "Mack": [
+            "Anthem",
+            "Granite",
+            "Pinnacle",
+            "LR",
+            "MD"
+        ],
+        "Isuzu": [
+            "N-Series",
+            "F-Series",
+            "FX-Series",
+            "NPR",
+            "NQR"
+        ]
+    }
+}

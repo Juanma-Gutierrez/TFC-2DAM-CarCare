@@ -1,132 +1,11 @@
-# API en Python
-
-Para el proyecto, he desarrollado una API en Python que devolverá marcas y modelos de vehículos. En función de los diferentes endpoints recibirá diferentes respuestas.
-
-La API de la aplicación está alojada en la web [pythonanywhere.com](http://pythonanywhere.com), así como los archivos Json que proporcionan las respuestas, cargando el archivo `flask_app.py` que es donde está la lógica de programación de la API.
-
-![image](https://github.com/Juanma-Gutierrez/TFC-2DAM-CarCare/assets/101201349/73de4e8e-441d-43d4-b74d-2e45e2916461)
-
-Captura de pantalla de la aplicación flask_app.py y de los json alojados en pythonanywhere.com
-
-## Documentación de la API
-
-[Build, Collaborate & Integrate APIs | SwaggerHub](https://app.swaggerhub.com/apis-docs/Juanma-Gutierrez/CarCare.Android.Kotlin.API/1.0.0#/)
-
-## Ejemplos de respuestas por categoría:
-
--   Coches: https://jumang.pythonanywhere.com/api/cars/brands
-
-```
-{
-  "brands": [
-    "Toyota",
-    "Ford",
-    "Honda",
-    ...
-  ]
-}
-```
-
--   Motocicletas: https://jumang.pythonanywhere.com/api/motorcycles/brands
-
-```
-{
-  "brands": [
-    "Honda",
-    "Yamaha",
-    "Kawasaki",
-    ...
-  ]
-}
-```
-
--   Furgonetas: https://jumang.pythonanywhere.com/api/vans/brands
-
-```
-{
-  "brands": [
-    "Mercedes-Benz",
-    "Ford",
-    "Volkswagen",
-    ...
-  ]
-}
-```
-
--   Camiones: https://jumang.pythonanywhere.com/api/trucks/brands
-
-```
-{
-  "brands": [
-    "Volvo",
-    "Mercedes-Benz",
-    "Scania",
-    ...
-  ]
-}
-```
-
-## Ejemplo de respuesta por marca
-
--   Todos los modelos de coche de la marca Toyota https://jumang.pythonanywhere.com/api/cars/models/Toyota
-
-```
-{
-  "models": [
-    "Camry",
-    "Corolla",
-    "RAV4",
-    ...
-  ]
-}
-```
-
--   Todos los modelos de motocicleta de la marca Kawasaki https://jumang.pythonanywhere.com/api/motorcycles/models/Kawasaki
-
-```
-{
-  "models": [
-    "Ninja ZX-10R",
-    "Ninja ZX-6R",
-    "Ninja 400",
-    ...
-  ]
-}
-```
-
-## Respuesta errónea
-
--   En caso de respuesta errónea, se devolverá la siguiente respuesta:
-    https://jumang.pythonanywhere.com/api/motorcycles/models/ERROR
-
-```
-{
-  "message": "Bad request: Invalid brand supply"
-}
-```
-
-## Problemas encontrados:
-
-Los problemas de CORS, se solucionan de esta manera:
-
--   Abrir una terminal `bash` en `pythonanywhere`.
--   Instalar `flask-cors`.
-
-    ```bash
-    pip install flask-cors
-    ```
-
--   Con este paquete instalado, se pueden gestionar las CORS para que estén habilitadas para toda la API.
-
-## Código completo de la aplicación Python
-
-```python
 from flask import Flask, request, jsonify
+from flask_cors import CORS
+
 import json
 import os
 
 # Error message
-errorMessage = {'message': 'Data not found'}
+errorMessage = {'message': 'Bad request: Invalid brand supply'}
 
 # Get the path
 localPath = os.path.dirname(os.path.abspath(__file__))
@@ -154,6 +33,7 @@ with open(path_trucks_json) as f:
     trucks = json.load(f)
 
 app = Flask(__name__)
+CORS(app)
 
 # Endpoint to get all cars
 @app.route('/api/cars', methods=['GET'])
@@ -173,7 +53,7 @@ def getCarsModels(brand):
         models = cars["data"][brand]
         return jsonify({"models":models})
     else:
-        return jsonify(errorMessage), 404
+        return jsonify(errorMessage), 400
 
 
 # Endpoint to get all motorcycles
@@ -194,7 +74,7 @@ def getMotorcyclesModels(brand):
         models = motorcycles["data"][brand]
         return jsonify({"models":models})
     else:
-        return jsonify(errorMessage), 404
+        return jsonify(errorMessage), 400
 
 
 # Endpoint to get all vans
@@ -215,7 +95,7 @@ def getVansModels(brand):
         models = vans["data"][brand]
         return jsonify({"models":models})
     else:
-        return jsonify(errorMessage), 404
+        return jsonify(errorMessage), 400
 
 
 # Endpoint to get all trucks
@@ -236,7 +116,7 @@ def getTrucksModels(brand):
         models = trucks["data"][brand]
         return jsonify({"models":models})
     else:
-        return jsonify(errorMessage), 404
+        return jsonify(errorMessage), 400
 
 
 #Endpoint that returns all brands of all vehicle categories
@@ -253,13 +133,12 @@ def getAllBrands():
     }
     return jsonify(all_brands)
 
+
 # Test endpoint
 @app.route('/')
 def hello_world():
     return 'Hello world!'
 
-# Test endpoint
 @app.route('/api')
 def hello_world_api():
     return 'Hello world!'
-```
