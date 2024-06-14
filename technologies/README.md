@@ -9,6 +9,7 @@
     - Storage: Almacenamiento de las imágenes de la aplicación.
 - [Figma](https://www.figma.com/): Diseño de prototipos.
 - [Photopea](https://www.photopea.com/): Edición de imágenes.
+- [Notion](https://www.notion.so/): Herramienta multipropósito de gestión de tareas, notas y documentos online.
 
 ## **Aplicación Angular**
 
@@ -25,9 +26,11 @@
 - [Android Studio](https://developer.android.com/studio): Entorno de desarrollo integrado (IDE) para Android.
 - [Dokka](https://github.com/Kotlin/dokka): Generación de documentación para Kotlin.
 - [Coil](https://coil-kt.github.io/coil/): Librería de carga de imágenes para Android.
+- [Material Design](https://m3.material.io/): Componentes de Material Design.
 
 ## **Aplicación Python**
 
 - [VSCode](https://code.visualstudio.com/): Entorno de desarrollo integrado (IDE).
 - [Pythonanywhere](https://www.pythonanywhere.com/): Hosting de aplicaciones Python.
 - [Swagger](https://app.swaggerhub.com/apis-docs/Juanma-Gutierrez/CarCare.Android.Kotlin.API/1.0.0#/): Herramienta para documentar y probar APIs.
+- [Doxygen](https://doxygen.nl/): Generación de documentación en formato Javadoc.
